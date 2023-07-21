@@ -48,7 +48,7 @@ await new DiscordWebhookBuilder()
 
 This message will generate the following discord message: 
 
-![Notification Sample](./Notification%20sample.png)
+![Notification sample](https://github.com/Log-Sistemas/nuget-discord-messenger/assets/32015491/c8c9f034-c998-4ef1-99c7-5f3d15692d7e)
 
 ### Title customization
 
