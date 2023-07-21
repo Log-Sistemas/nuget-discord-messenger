@@ -1,5 +1,8 @@
 ﻿# Discord messenger
 
+[![Nuget](https://img.shields.io/nuget/v/LogSistemas.Nuget.Discord.Messenger?style=for-the-badge&logo=nuget&labelColor=%23004880&color=%23004880)](https://www.nuget.org/packages/LogSistemas.Nuget.Discord.Messenger/) 
+![Nuget](https://img.shields.io/nuget/dt/LogSistemas.Nuget.Discord.Messenger?style=for-the-badge&logo=nuget&labelColor=%23004880&color=%23004880)
+
 This is a C# wrapper for sending discord message with webhook.
 
 I was build with dotnet 6.0.
