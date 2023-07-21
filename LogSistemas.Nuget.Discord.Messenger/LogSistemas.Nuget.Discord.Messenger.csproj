@@ -6,9 +6,9 @@
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>Discord messenger</Title>
 	<Description>Wrapper to send discord message to a specific webhook</Description>
-	<PackageProjectUrl>https://github.com/Log-Sistemas/nuget-packages</PackageProjectUrl>
+	<PackageProjectUrl>https://github.com/Log-Sistemas/nuget-discord-messenger</PackageProjectUrl>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
-	<RepositoryUrl>https://github.com/Log-Sistemas/nuget-packages</RepositoryUrl>
+	<RepositoryUrl>https://github.com/Log-Sistemas/nuget-discord-messenger</RepositoryUrl>
 	<PackageOutputPath>..\Packages</PackageOutputPath>
 	<PackageIcon>Logo_Log_Sistemas.png</PackageIcon>
   </PropertyGroup>
