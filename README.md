@@ -1,12 +1,14 @@
 ﻿# Discord messenger
 
-This is a wrapper for sending discord message with webhook.
+This is a C# wrapper for sending discord message with webhook.
 
-Some benefits
+I was build with dotnet 6.0.
+
+### Some benefits
 
 - Faster to use then [discord.net](https://github.com/discord-net/Discord.Net/tree/dev/samples/WebhookClient) (he is used under the hood)
 - Pre-configured customizations to make message more elegant
-- Exception handling when sending message with fallback webhook url 
+- Exception handling when sending message with fallback webhook url
 
 ## Usage
 
