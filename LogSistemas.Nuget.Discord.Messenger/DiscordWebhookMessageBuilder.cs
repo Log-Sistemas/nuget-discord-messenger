@@ -4,7 +4,7 @@ namespace LogSistemas.Nuget.Discord.Messenger
 {
     public class DiscordWebhookMessageBuilder
     {
-        private const int _max_description_lenght = 4096;
+        private const int _max_description_lenght = 4096 - 6; //6 is from triple quotes
         private const int _max_title_lenght = 256;
         private const int _max_author_lenght = 256;
         private const int _max_footer_lenght = 2048;

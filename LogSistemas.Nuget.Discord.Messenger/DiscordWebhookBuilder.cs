@@ -70,13 +70,13 @@ namespace LogSistemas.Nuget.Discord.Messenger
                     try
                     {
                         Embed fallbackEmbed = new DiscordWebhookMessageBuilder()
-                            .SetTitleError("Dados")
+                            .SetTitleError("Data")
                             .SetDescription(msg)//Description is the field with more length - 4096
                             .SetThumbnailUrl("https://uploads.sitepoint.com/wp-content/uploads/2015/12/1450973046wordpress-errors.png")
-                            .SetFooter("Tratamento fallback url")
+                            .SetFooter("Fallback url treatment")
                             .Build();
                         using DiscordWebhookClient fallbackWebhook = new(Config.ExceptionFallbackUrl);
-                        await fallbackWebhook.SendMessageAsync("Não foi possível realizar o envio de uma notificação, dados abaixo", embeds: new List<Embed> { fallbackEmbed });
+                        await fallbackWebhook.SendMessageAsync("Unable to send a notification to the destination, below is the data", embeds: new List<Embed> { fallbackEmbed });
                     }
                     catch (Exception ex)
                     {
